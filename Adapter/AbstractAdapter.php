@@ -9,7 +9,7 @@ namespace Adapter;
 abstract class AbstractAdapter
 {
     /**
-     * Массив с настройками подключения
+     * РњР°СЃСЃРёРІ СЃ РЅР°СЃС‚СЂРѕР№РєР°РјРё РїРѕРґРєР»СЋС‡РµРЅРёСЏ
      * @var array
      */
     protected $config = array();

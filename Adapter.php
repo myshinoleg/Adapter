@@ -21,14 +21,14 @@ class Adapter
     }
 
     /**
-     * Инициализация адаптера в зависимости БД
+     * РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Р°РґР°РїС‚РµСЂР° РІ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё Р‘Р”
      * @throws Exception
      */
     public function initAdapter()
     {
         if (!isset($this->config['adapter']))
         {
-            throw new Exception('Не указано имя адаптера');
+            throw new Exception('РќРµ СѓРєР°Р·Р°РЅРѕ РёРјСЏ Р°РґР°РїС‚РµСЂР°');
         }
 
         $adapterName = $this->config['adapter'];
@@ -41,7 +41,7 @@ class Adapter
         }
         else
         {
-            throw new Exception('Класса адаптера ' . $adapterName . 'не существует');
+            throw new Exception('РљР»Р°СЃСЃР° Р°РґР°РїС‚РµСЂР° ' . $adapterName . 'РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚');
         }
     }
 

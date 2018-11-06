@@ -24,7 +24,7 @@ class Redis extends AbstractAdapter implements \IAdapter
      */
     public function select($table, $colums = '*', $where = '', $order = '', $limit = '')
     {
-        // TODO реализация подготовки select запроса
+        // TODO СЂРµР°Р»РёР·Р°С†РёСЏ РїРѕРґРіРѕС‚РѕРІРєРё select Р·Р°РїСЂРѕСЃР°
     }
 
     /**
@@ -35,7 +35,7 @@ class Redis extends AbstractAdapter implements \IAdapter
      */
     public function insert($table, array $bind)
     {
-        // TODO реализация подготовки insert запроса
+        // TODO СЂРµР°Р»РёР·Р°С†РёСЏ РїРѕРґРіРѕС‚РѕРІРєРё insert Р·Р°РїСЂРѕСЃР°
     }
 
     /**
@@ -47,7 +47,7 @@ class Redis extends AbstractAdapter implements \IAdapter
      */
     public function update($table, array $bind, $where = '')
     {
-        // TODO реализация подготовки update запроса
+        // TODO СЂРµР°Р»РёР·Р°С†РёСЏ РїРѕРґРіРѕС‚РѕРІРєРё update Р·Р°РїСЂРѕСЃР°
     }
 
     /**
@@ -58,11 +58,11 @@ class Redis extends AbstractAdapter implements \IAdapter
      */
     public function delete($table, $where = '')
     {
-        // TODO реализация подготовки delete запроса
+        // TODO СЂРµР°Р»РёР·Р°С†РёСЏ РїРѕРґРіРѕС‚РѕРІРєРё delete Р·Р°РїСЂРѕСЃР°
     }
 
     /**
-     * Создает новое подключение к хранилищу, если его нет
+     * РЎРѕР·РґР°РµС‚ РЅРѕРІРѕРµ РїРѕРґРєР»СЋС‡РµРЅРёРµ Рє С…СЂР°РЅРёР»РёС‰Сѓ, РµСЃР»Рё РµРіРѕ РЅРµС‚
      * @param $config
      * @throws \Exception
      */
